@@ -62,9 +62,26 @@ date- and person-sorted folders. It runs **fully offline**, so photos never leav
   <img src="https://skillicons.dev/icons?i=py,fastapi,js,html,css,sqlite,docker,git,vscode&theme=dark" alt="Python, FastAPI, JavaScript, HTML, CSS, SQLite, Docker, Git, VS Code" />
 </p>
 
-### 🧠 Interested in
+### 🧠 AI work I take on
 
-`Computer Vision` `Traffic Prediction` `AI for Smart Cities` `Emergency Response Tech` `AI-assisted Development`
+**Hands-on**
+- 👁️ **Computer vision pipelines:** face detection (YuNet), embeddings (ArcFace via ONNX Runtime), clustering and nearest-neighbour recognition. *[photo-organizer](https://github.com/Pratyush1427/photo-organizer)*
+- 🧭 **Data-driven decision systems:** congestion modelling from time-series traffic data, graph search over a 16k-node road network, human-in-the-loop approval flows. *[green-corridor](https://github.com/Pratyush1427/green-corridor)*
+- 🤖 **AI-assisted engineering:** shipping full projects with AI coding agents: specifying tasks, reviewing and debugging generated code, testing it end to end.
+
+**Exploring now**
+- LLM applications and agents: tool use, structured extraction, retrieval
+- Evaluating AI output: code review, test-driven verification, finding failure cases
+- Prediction models trained on real traffic data
+
+### 🎯 Open to
+
+<p>
+  <img src="https://img.shields.io/badge/AI%20bounties%20%26%20quests-22d3ee?style=for-the-badge&logoColor=white" alt="AI bounties and quests" />
+  <img src="https://img.shields.io/badge/AI%20code%20review%20%26%20evaluation-14305a?style=for-the-badge" alt="AI code review and evaluation" />
+  <img src="https://img.shields.io/badge/LLM%20%26%20CV%20prototypes-0b1a33?style=for-the-badge" alt="LLM and computer vision prototypes" />
+  <img src="https://img.shields.io/badge/Freelance%20challenges-1f3d6b?style=for-the-badge" alt="Freelance challenges" />
+</p>
 
 <!-- 📫 Add your contact links here, for example:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile)
