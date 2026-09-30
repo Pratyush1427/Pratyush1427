@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1a33,50:14305a,100:22d3ee&height=190&section=header&text=Pratyush%20Sahoo&fontSize=42&fontColor=e6eefb&animation=fadeIn&desc=SDE%20%40%20Amazon%20%C2%B7%20Alexa%20Smart%20Home%20%C2%B7%20AI%20enthusiast&descAlignY=72&descSize=16" alt="Pratyush Sahoo: Software Engineer at Amazon, Alexa Smart Home, AI enthusiast" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=22D3EE&center=true&vCenter=true&width=640&lines=Software+Engineer+%40+Amazon+%C2%B7+Alexa+Smart+Home+%F0%9F%8F%A0;AI+enthusiast+%F0%9F%A4%96;Computer+vision+%C2%B7+face+recognition;AI+for+cities+%26+emergency+response+%F0%9F%9A%91" alt="Software Engineer at Amazon, Alexa Smart Home · AI enthusiast · Computer vision · AI for cities" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=22D3EE&center=true&vCenter=true&width=640&lines=Software+Engineer+%40+Amazon+%C2%B7+Alexa+Smart+Home+%F0%9F%8F%A0;AI+enthusiast+%F0%9F%A4%96;Computer+vision+%C2%B7+face+recognition;AI+for+cities+%26+emergency+response+%F0%9F%9A%91;Machine+learning+for+markets+%F0%9F%93%88" alt="Software Engineer at Amazon, Alexa Smart Home · AI enthusiast · Computer vision · AI for cities · Machine learning for markets" />
 </p>
 
 ### 👋 Hi, I'm Pratyush
@@ -13,13 +13,30 @@
 I'm a **Software Development Engineer at Amazon**, on the **Alexa Smart Home** team: the part of
 Alexa that connects voice to the devices in people's homes. Outside work, I'm an **AI enthusiast**
 who likes turning "what if…" ideas into things people can actually run. Lately that means
-**computer vision** and **AI for cities**: recognising faces in a photo library, and helping
-ambulances get through Bengaluru traffic.
+**computer vision**, **AI for cities** and **machine learning for markets**: recognising faces in a
+photo library, helping ambulances get through Bengaluru traffic, and testing which stock signals
+actually work.
 
 - 💼 By day: building production software for **Alexa Smart Home** at Amazon
-- 🔭 Side project: **[Green Corridor](https://github.com/Pratyush1427/green-corridor)**, smart routing and signal priority for ambulances
+- 🔭 Side projects: **[Green Corridor](https://github.com/Pratyush1427/green-corridor)** (ambulance routing and signal priority) and **[Nifty Signals](https://github.com/Pratyush1427/nifty-buy-sell)** (portfolio tracker with tested ML signals)
 - 🧠 Exploring computer vision, traffic prediction and AI-assisted software development
 - ⚡ I build end to end: data, backend, maps and UI
+
+---
+
+### 📈 Featured: Nifty Signals
+
+<a href="https://github.com/Pratyush1427/nifty-buy-sell">
+  <img src="https://raw.githubusercontent.com/Pratyush1427/nifty-buy-sell/main/docs/images/demo-models.gif" alt="Nifty Signals demo: switching models on a stock page redraws the chart with moving averages, Bollinger bands, RSI and MACD" width="100%" />
+</a>
+
+A self-hosted dashboard for Indian investors that puts **stocks, mutual funds, gold and silver in one
+portfolio** and scores every stock with **ten decision models**: five classic technical rules, four
+machine-learning models and an overall vote. Every model is **tested walk-forward on ten years it never
+saw**, so you can see which ones actually work. The ML ensemble's picks beat the Nifty 54.6% of the time,
+against 51% for all stocks; the classic 52-week-breakout rule does no better than a coin flip.
+
+`Next.js` `React` `Python` `scikit-learn` `SQLite` → **[See the walkthrough](https://github.com/Pratyush1427/nifty-buy-sell#-walkthrough)**
 
 ---
 
@@ -58,6 +75,7 @@ date- and person-sorted folders. It runs **fully offline**, so photos never leav
 
 | | Project | What it does | Built with |
 |:-:|---|---|---|
+| 📈 | **[Nifty Signals](https://github.com/Pratyush1427/nifty-buy-sell)** | Portfolio tracker for Indian stocks and mutual funds, with BUY/SELL signals from **ten models including walk-forward-tested ML** | Next.js · Python · scikit-learn |
 | 🚑 | **[Green Corridor](https://github.com/Pratyush1427/green-corridor)** | Traffic-aware ambulance routing, a traffic police control room and green-signal priority on real city data | Python · FastAPI · Leaflet |
 | 📷 | **[Photo Organizer](https://github.com/Pratyush1427/photo-organizer)** | Offline photo library that **recognises and groups faces with AI**, with culling and date-sorted export | Python · computer vision |
 
@@ -66,13 +84,14 @@ date- and person-sorted folders. It runs **fully offline**, so photos never leav
 ### 🧰 Tech I work with
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=py,fastapi,js,html,css,sqlite,docker,git,vscode&theme=dark" alt="Python, FastAPI, JavaScript, HTML, CSS, SQLite, Docker, Git, VS Code" />
+  <img src="https://skillicons.dev/icons?i=py,sklearn,fastapi,js,react,nextjs,nodejs,html,css,sqlite,docker,git,vscode&theme=dark" alt="Python, scikit-learn, FastAPI, JavaScript, React, Next.js, Node.js, HTML, CSS, SQLite, Docker, Git, VS Code" />
 </p>
 
 ### 🧠 AI work I take on
 
 **Hands-on**
 - 👁️ **Computer vision pipelines:** face detection (YuNet), embeddings (ArcFace via ONNX Runtime), clustering and nearest-neighbour recognition. *[photo-organizer](https://github.com/Pratyush1427/photo-organizer)*
+- 📈 **Machine learning on market data:** gradient boosting, random forests and logistic regression on 30 engineered features, walk-forward evaluation with an embargo, and leaderboards with t-statistics against simple baselines. *[nifty-buy-sell](https://github.com/Pratyush1427/nifty-buy-sell)*
 - 🧭 **Data-driven decision systems:** congestion modelling from time-series traffic data, graph search over a 16k-node road network, human-in-the-loop approval flows. *[green-corridor](https://github.com/Pratyush1427/green-corridor)*
 - 🤖 **AI-assisted engineering:** shipping full projects with AI coding agents: specifying tasks, reviewing and debugging generated code, testing it end to end.
 
