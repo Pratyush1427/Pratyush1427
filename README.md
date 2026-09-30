@@ -1,16 +1,23 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1a33,50:14305a,100:22d3ee&height=180&section=header&text=Pratyush%20Sahoo&fontSize=42&fontColor=e6eefb&animation=fadeIn&desc=AI%20enthusiast%20%C2%B7%20Building%20practical%20AI%20with%20Python&descAlignY=72&descSize=16" alt="Pratyush Sahoo: AI enthusiast" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1a33,50:14305a,100:22d3ee&height=190&section=header&text=Pratyush%20Sahoo&fontSize=42&fontColor=e6eefb&animation=fadeIn&desc=SDE%20%40%20Amazon%20%C2%B7%20Alexa%20Smart%20Home%20%C2%B7%20AI%20enthusiast&descAlignY=72&descSize=16" alt="Pratyush Sahoo: Software Engineer at Amazon, Alexa Smart Home, AI enthusiast" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=22D3EE&center=true&vCenter=true&width=600&lines=AI+enthusiast+%F0%9F%A4%96;Computer+vision+%C2%B7+face+recognition;AI+for+cities+%26+emergency+response+%F0%9F%9A%91;Python+%C2%B7+FastAPI+%C2%B7+JavaScript" alt="AI enthusiast · Computer vision · AI for cities · Python" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=22D3EE&center=true&vCenter=true&width=640&lines=Software+Engineer+%40+Amazon+%C2%B7+Alexa+Smart+Home+%F0%9F%8F%A0;AI+enthusiast+%F0%9F%A4%96;Computer+vision+%C2%B7+face+recognition;AI+for+cities+%26+emergency+response+%F0%9F%9A%91" alt="Software Engineer at Amazon, Alexa Smart Home · AI enthusiast · Computer vision · AI for cities" />
 </p>
 
 ### 👋 Hi, I'm Pratyush
 
-I'm an **AI enthusiast** who likes turning "what if…" ideas into things people can actually run.
-Lately that means **computer vision** and **AI for cities**: recognising faces in a photo library,
-and helping ambulances get through Bengaluru traffic.
+<p>
+  <img src="https://img.shields.io/badge/Software%20Engineer%20%40%20Amazon-Alexa%20Smart%20Home-22d3ee?style=for-the-badge&labelColor=0b1a33" alt="Software Engineer at Amazon, Alexa Smart Home" />
+</p>
 
-- 🔭 Working on **[Green Corridor](https://github.com/Pratyush1427/green-corridor)**: smart routing and signal priority for ambulances
+I'm a **Software Development Engineer at Amazon**, on the **Alexa Smart Home** team: the part of
+Alexa that connects voice to the devices in people's homes. Outside work, I'm an **AI enthusiast**
+who likes turning "what if…" ideas into things people can actually run. Lately that means
+**computer vision** and **AI for cities**: recognising faces in a photo library, and helping
+ambulances get through Bengaluru traffic.
+
+- 💼 By day: building production software for **Alexa Smart Home** at Amazon
+- 🔭 Side project: **[Green Corridor](https://github.com/Pratyush1427/green-corridor)**, smart routing and signal priority for ambulances
 - 🧠 Exploring computer vision, traffic prediction and AI-assisted software development
 - ⚡ I build end to end: data, backend, maps and UI
 
@@ -82,6 +89,8 @@ date- and person-sorted folders. It runs **fully offline**, so photos never leav
   <img src="https://img.shields.io/badge/LLM%20%26%20CV%20prototypes-0b1a33?style=for-the-badge" alt="LLM and computer vision prototypes" />
   <img src="https://img.shields.io/badge/Freelance%20challenges-1f3d6b?style=for-the-badge" alt="Freelance challenges" />
 </p>
+
+<sub>The projects here are personal side projects, built on my own time. Views are my own and don't represent Amazon.</sub>
 
 <!-- 📫 Add your contact links here, for example:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile)
