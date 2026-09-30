@@ -31,6 +31,22 @@ traffic signals from OpenStreetMap.
 
 ---
 
+### 📷 Featured: Photo Organizer
+
+<a href="https://github.com/Pratyush1427/photo-organizer">
+  <img src="https://raw.githubusercontent.com/Pratyush1427/photo-organizer/main/docs/screenshots/walkthrough.gif" alt="Photo Organizer demo: browsing the timeline, rating and picking photos with the keyboard, and people recognised automatically" width="100%" />
+</a>
+
+A photo library that **recognises faces with AI** and groups them into people. Name a person once and
+they're named in every photo. Rate, pick and reject with Lightroom-style shortcuts, then export
+date- and person-sorted folders. It runs **fully offline**, so photos never leave your machine.
+
+`Python` `Computer Vision` `ArcFace` `OpenCV` `Flask` → **[See how it works](https://github.com/Pratyush1427/photo-organizer#how-it-works)**
+
+<sub>Demo uses public-domain NASA photos of the Artemis II crew.</sub>
+
+---
+
 ### 🛠️ Projects
 
 | | Project | What it does | Built with |
