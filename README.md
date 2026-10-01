@@ -18,9 +18,25 @@ photo library, helping ambulances get through Bengaluru traffic, and testing whi
 actually work.
 
 - 💼 By day: building production software for **Alexa Smart Home** at Amazon
-- 🔭 Side projects: **[Green Corridor](https://github.com/Pratyush1427/green-corridor)** (ambulance routing and signal priority) and **[Nifty Signals](https://github.com/Pratyush1427/nifty-buy-sell)** (portfolio tracker with tested ML signals)
+- 🔭 Side projects: **[Hissa](https://github.com/Pratyush1427/Hissa)** (back the street-food stalls you love), **[Green Corridor](https://github.com/Pratyush1427/green-corridor)** (ambulance routing and signal priority) and **[Nifty Signals](https://github.com/Pratyush1427/nifty-buy-sell)** (portfolio tracker with tested ML signals)
 - 🧠 Exploring computer vision, traffic prediction and AI-assisted software development
 - ⚡ I build end to end: data, backend, maps and UI
+
+---
+
+### 🌶️ Featured: Hissa
+
+<a href="https://github.com/Pratyush1427/Hissa">
+  <img src="https://raw.githubusercontent.com/Pratyush1427/Hissa/main/docs/media/discover.gif" alt="Hissa demo: vendor stories, Bengaluru's top-rated street stalls and live OpenStreetMap food spots, then a stall's growth campaign" width="100%" />
+</a>
+
+Every Bengaluru regular has a favourite dosa cart or chaat corner that can't afford to grow. **Hissa** ("share")
+lets food lovers **rate street stalls, find unlisted ones and back a vendor's next step**: a second tawa, a
+covered counter, a food truck. Backers get **food-credit treats at each milestone** and a **share of the extra
+sales** up to a cap, and vendors accept treat codes at the counter from their own dashboard. Live mode runs on
+Supabase with sign-in, play money and row-level security, alongside 1,280+ real food spots from OpenStreetMap.
+
+`Next.js` `TypeScript` `Supabase` `Postgres` `Tailwind` → **[Play the live demo](https://hissa-1w52.vercel.app)** · **[See how it works](https://github.com/Pratyush1427/Hissa#-how-it-works)**
 
 ---
 
@@ -75,6 +91,7 @@ date- and person-sorted folders. It runs **fully offline**, so photos never leav
 
 | | Project | What it does | Built with |
 |:-:|---|---|---|
+| 🌶️ | **[Hissa](https://github.com/Pratyush1427/Hissa)** | Back Bengaluru's street-food vendors: ratings, **crowdfunded growth goals with treats and revenue share**, and a vendor dashboard · [live demo](https://hissa-1w52.vercel.app) | Next.js · Supabase · TypeScript |
 | 📈 | **[Nifty Signals](https://github.com/Pratyush1427/nifty-buy-sell)** | Portfolio tracker for Indian stocks and mutual funds, with BUY/SELL signals from **ten models including walk-forward-tested ML** | Next.js · Python · scikit-learn |
 | 🚑 | **[Green Corridor](https://github.com/Pratyush1427/green-corridor)** | Traffic-aware ambulance routing, a traffic police control room and green-signal priority on real city data | Python · FastAPI · Leaflet |
 | 📷 | **[Photo Organizer](https://github.com/Pratyush1427/photo-organizer)** | Offline photo library that **recognises and groups faces with AI**, with culling and date-sorted export | Python · computer vision |
@@ -84,7 +101,7 @@ date- and person-sorted folders. It runs **fully offline**, so photos never leav
 ### 🧰 Tech I work with
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=py,sklearn,fastapi,js,react,nextjs,nodejs,html,css,sqlite,docker,git,vscode&theme=dark" alt="Python, scikit-learn, FastAPI, JavaScript, React, Next.js, Node.js, HTML, CSS, SQLite, Docker, Git, VS Code" />
+  <img src="https://skillicons.dev/icons?i=py,sklearn,fastapi,ts,js,react,nextjs,nodejs,tailwind,html,css,supabase,postgres,sqlite,docker,git,vscode&theme=dark" alt="Python, scikit-learn, FastAPI, TypeScript, JavaScript, React, Next.js, Node.js, Tailwind CSS, HTML, CSS, Supabase, PostgreSQL, SQLite, Docker, Git, VS Code" />
 </p>
 
 ### 🧠 AI work I take on
@@ -93,6 +110,7 @@ date- and person-sorted folders. It runs **fully offline**, so photos never leav
 - 👁️ **Computer vision pipelines:** face detection (YuNet), embeddings (ArcFace via ONNX Runtime), clustering and nearest-neighbour recognition. *[photo-organizer](https://github.com/Pratyush1427/photo-organizer)*
 - 📈 **Machine learning on market data:** gradient boosting, random forests and logistic regression on 30 engineered features, walk-forward evaluation with an embargo, and leaderboards with t-statistics against simple baselines. *[nifty-buy-sell](https://github.com/Pratyush1427/nifty-buy-sell)*
 - 🧭 **Data-driven decision systems:** congestion modelling from time-series traffic data, graph search over a 16k-node road network, human-in-the-loop approval flows. *[green-corridor](https://github.com/Pratyush1427/green-corridor)*
+- 🌶️ **Full-stack product, end to end:** a two-sided app with sign-in, Postgres row-level security, transactional money rules in database functions, live OpenStreetMap data and a responsive UI, deployed on Vercel. *[Hissa](https://github.com/Pratyush1427/Hissa)*
 - 🤖 **AI-assisted engineering:** shipping full projects with AI coding agents: specifying tasks, reviewing and debugging generated code, testing it end to end.
 
 **Exploring now**
