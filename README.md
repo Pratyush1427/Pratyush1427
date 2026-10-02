@@ -14,11 +14,11 @@ I'm a **Software Development Engineer at Amazon**, on the **Alexa Smart Home** t
 Alexa that connects voice to the devices in people's homes. Outside work, I'm an **AI enthusiast**
 who likes turning "what if…" ideas into things people can actually run. Lately that means
 **computer vision**, **AI for cities** and **machine learning for markets**: recognising faces in a
-photo library, helping ambulances get through Bengaluru traffic, and testing which stock signals
-actually work.
+photo library, helping ambulances get through Bengaluru traffic, and a learning game for tracking
+stocks, US shares and gold.
 
 - 💼 By day: building production software for **Alexa Smart Home** at Amazon
-- 🔭 Side projects: **[Hissa](https://github.com/Pratyush1427/Hissa)** (back the street-food stalls you love), **[Green Corridor](https://github.com/Pratyush1427/green-corridor)** (ambulance routing and signal priority) and **[Nifty Signals](https://github.com/Pratyush1427/nifty-buy-sell)** (portfolio tracker with tested ML signals)
+- 🔭 Side projects: **[Hissa](https://github.com/Pratyush1427/Hissa)** (back the street-food stalls you love), **[Green Corridor](https://github.com/Pratyush1427/green-corridor)** (ambulance routing and signal priority) and **[Stockpot](https://github.com/Pratyush1427/stockpot)** (a learning game for Indian markets, with tested ML models)
 - 🧠 Exploring computer vision, traffic prediction and AI-assisted software development
 - ⚡ I build end to end: data, backend, maps and UI
 
@@ -40,19 +40,22 @@ Supabase with sign-in, play money and row-level security, alongside 1,280+ real 
 
 ---
 
-### 📈 Featured: Nifty Signals
+### 🍲 Featured: Stockpot
 
-<a href="https://github.com/Pratyush1427/nifty-buy-sell">
-  <img src="https://raw.githubusercontent.com/Pratyush1427/nifty-buy-sell/main/docs/images/demo-models.gif" alt="Nifty Signals demo: switching models on a stock page redraws the chart with moving averages, Bollinger bands, RSI and MACD" width="100%" />
+<a href="https://playstockpot.vercel.app">
+  <img src="https://raw.githubusercontent.com/Pratyush1427/stockpot/main/docs/images/overview.png" alt="Stockpot: buckets with Amazon shares valued in rupees, gold by the gram, Indian stocks and a mutual fund, each with P&L, allocation and a model outlook" width="100%" />
 </a>
 
-A self-hosted dashboard for Indian investors that puts **stocks, mutual funds, gold and silver in one
-portfolio** and scores every stock with **ten decision models**: five classic technical rules, four
-machine-learning models and an overall vote. Every model is **tested walk-forward on ten years it never
-saw**, so you can see which ones actually work. The ML ensemble's picks beat the Nifty 54.6% of the time,
-against 51% for all stocks; the classic 52-week-breakout rule does no better than a coin flip.
+A learning game for Indian markets. Build **buckets** of Indian stocks, **US stocks**, mutual funds and
+**gold by the gram**, enter your quantities and buy prices, and track **P&L at real closing prices**. US shares
+are valued in ₹ at each day's USD/INR rate, so the rupee's move shows up too. Every stock gets a
+**Bullish / Neutral / Bearish outlook from ten models** (five technical rules, three ML models and their
+ensemble, and an overall vote), each with a **walk-forward test on years it never saw**. Live with sign-up,
+Supabase auth and row-level security; a nightly GitHub Actions job retrains and re-scores the models.
 
-`Next.js` `React` `Python` `scikit-learn` `SQLite` → **[See the walkthrough](https://github.com/Pratyush1427/nifty-buy-sell#-walkthrough)**
+`Next.js` `Supabase` `Postgres` `Python` `scikit-learn` `GitHub Actions` → **[Try it live](https://playstockpot.vercel.app)** · **[How it works](https://github.com/Pratyush1427/stockpot#how-the-game-works)**
+
+<sub>A personal learning project, not investment advice.</sub>
 
 ---
 
@@ -92,7 +95,7 @@ date- and person-sorted folders. It runs **fully offline**, so photos never leav
 | | Project | What it does | Built with |
 |:-:|---|---|---|
 | 🌶️ | **[Hissa](https://github.com/Pratyush1427/Hissa)** | Back Bengaluru's street-food vendors: ratings, **crowdfunded growth goals with treats and revenue share**, and a vendor dashboard · [live demo](https://hissa-1w52.vercel.app) | Next.js · Supabase · TypeScript |
-| 📈 | **[Nifty Signals](https://github.com/Pratyush1427/nifty-buy-sell)** | Portfolio tracker for Indian stocks and mutual funds, with BUY/SELL signals from **ten models including walk-forward-tested ML** | Next.js · Python · scikit-learn |
+| 🍲 | **[Stockpot](https://github.com/Pratyush1427/stockpot)** | Learning game: **buckets of Indian and US stocks, funds and gold** with P&L at closing prices, and outlooks from **ten models including walk-forward-tested ML** · [live](https://playstockpot.vercel.app) | Next.js · Supabase · Python · scikit-learn |
 | 🚑 | **[Green Corridor](https://github.com/Pratyush1427/green-corridor)** | Traffic-aware ambulance routing, a traffic police control room and green-signal priority on real city data | Python · FastAPI · Leaflet |
 | 📷 | **[Photo Organizer](https://github.com/Pratyush1427/photo-organizer)** | Offline photo library that **recognises and groups faces with AI**, with culling and date-sorted export | Python · computer vision |
 
@@ -108,7 +111,7 @@ date- and person-sorted folders. It runs **fully offline**, so photos never leav
 
 **Hands-on**
 - 👁️ **Computer vision pipelines:** face detection (YuNet), embeddings (ArcFace via ONNX Runtime), clustering and nearest-neighbour recognition. *[photo-organizer](https://github.com/Pratyush1427/photo-organizer)*
-- 📈 **Machine learning on market data:** gradient boosting, random forests and logistic regression on 30 engineered features, walk-forward evaluation with an embargo, and leaderboards with t-statistics against simple baselines. *[nifty-buy-sell](https://github.com/Pratyush1427/nifty-buy-sell)*
+- 📈 **Machine learning on market data:** gradient boosting, random forests and logistic regression on 30 engineered features, walk-forward evaluation with an embargo, and leaderboards with t-statistics against simple baselines, retrained nightly on GitHub Actions. *[stockpot](https://github.com/Pratyush1427/stockpot)*
 - 🧭 **Data-driven decision systems:** congestion modelling from time-series traffic data, graph search over a 16k-node road network, human-in-the-loop approval flows. *[green-corridor](https://github.com/Pratyush1427/green-corridor)*
 - 🌶️ **Full-stack product, end to end:** a two-sided app with sign-in, Postgres row-level security, transactional money rules in database functions, live OpenStreetMap data and a responsive UI, deployed on Vercel. *[Hissa](https://github.com/Pratyush1427/Hissa)*
 - 🤖 **AI-assisted engineering:** shipping full projects with AI coding agents: specifying tasks, reviewing and debugging generated code, testing it end to end.
