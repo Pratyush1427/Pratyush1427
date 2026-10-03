@@ -70,7 +70,7 @@ congestion patterns**, traffic police approve it in a control room, and the **si
 turn green** just before the ambulance arrives. It runs on Bengaluru's real roads, hospitals and
 traffic signals from OpenStreetMap.
 
-`Python` `FastAPI` `Leaflet` `OpenStreetMap` `SQLite` → **[Try the one-click demo](https://github.com/Pratyush1427/green-corridor#quick-start)**
+`Python` `FastAPI` `Leaflet` `OpenStreetMap` `SQLite` → **[▶ Try it live](https://green-corridor-tt52.onrender.com)** · [see the code](https://github.com/Pratyush1427/green-corridor)
 
 ---
 
