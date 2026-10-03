@@ -18,7 +18,7 @@ photo library, helping ambulances get through Bengaluru traffic, and a learning 
 stocks, US shares and gold.
 
 - 💼 By day: building production software for **Alexa Smart Home** at Amazon
-- 🔭 Side projects: **[Hissa](https://github.com/Pratyush1427/Hissa)** (back the street-food stalls you love), **[Green Corridor](https://github.com/Pratyush1427/green-corridor)** (ambulance routing and signal priority) and **[Stockpot](https://github.com/Pratyush1427/stockpot)** (a learning game for Indian markets, with tested ML models)
+- 🔭 Side projects: **[Hissa](https://github.com/Pratyush1427/Hissa)** (back the street-food stalls you love), **[Green Corridor](https://github.com/Pratyush1427/green-corridor)** (ambulance routing and signal priority), **[Stockpot](https://github.com/Pratyush1427/stockpot)** (a learning game for Indian markets, with tested ML models) and **[Keepers](https://github.com/Pratyush1427/keepers)** (an offline photo library that recognises faces)
 - 🧠 Exploring computer vision, traffic prediction and AI-assisted software development
 - ⚡ I build end to end: data, backend, maps and UI
 
