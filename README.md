@@ -62,15 +62,16 @@ Supabase auth and row-level security; a nightly GitHub Actions job retrains and 
 ### 🚑 Featured: Green Corridor
 
 <a href="https://github.com/Pratyush1427/green-corridor">
-  <img src="https://raw.githubusercontent.com/Pratyush1427/green-corridor/main/docs/screenshots/demo.gif" alt="Green Corridor demo: three ambulances in rush-hour traffic, with signals turning green ahead of them" width="100%" />
+  <img src="https://raw.githubusercontent.com/Pratyush1427/green-corridor/main/docs/screenshots/demo.gif" alt="Green Corridor demo: an accident at rush hour, the control room clears the route, the signal officer taps I will clear the road, and the driver's next signal turns green" width="100%" />
 </a>
 
-An ambulance crew triggers an emergency, the system finds the **fastest route to hospital using
-congestion patterns**, traffic police approve it in a control room, and the **signals on the route
-turn green** just before the ambulance arrives. It runs on Bengaluru's real roads, hospitals and
-traffic signals from OpenStreetMap.
+When an accident is reported, the **fastest ambulance is sent**. The traffic control room clears its
+route and the **police officer at each signal is alerted on their phone**, so signals turn green just
+before the ambulance reaches them: first to the accident, then to the hospital. Four simple screens
+(hospital, driver, signal officer, control room) built for first-time users, with Indian English voice
+guidance and Kannada / Hindi text. Runs on Bengaluru's real roads, hospitals and signals.
 
-`Python` `FastAPI` `Leaflet` `OpenStreetMap` `SQLite` → **[▶ Try it live](https://green-corridor-tt52.onrender.com)** · [see the code](https://github.com/Pratyush1427/green-corridor)
+`Python` `FastAPI` `Leaflet` `OpenStreetMap` `Docker` → **[▶ Try it live](https://green-corridor-tt52.onrender.com)** · [see the code](https://github.com/Pratyush1427/green-corridor)
 
 ---
 
@@ -96,7 +97,7 @@ date- and person-sorted folders. It runs **fully offline**, so photos never leav
 |:-:|---|---|---|
 | 🌶️ | **[Hissa](https://github.com/Pratyush1427/Hissa)** | Back Bengaluru's street-food vendors: ratings, **crowdfunded growth goals with treats and revenue share**, and a vendor dashboard · [live demo](https://hissa-1w52.vercel.app) | Next.js · Supabase · TypeScript |
 | 🍲 | **[Stockpot](https://github.com/Pratyush1427/stockpot)** | Learning game: **buckets of Indian and US stocks, funds and gold** with P&L at closing prices, and outlooks from **ten models including walk-forward-tested ML** · [live](https://playstockpot.vercel.app) | Next.js · Supabase · Python · scikit-learn |
-| 🚑 | **[Green Corridor](https://github.com/Pratyush1427/green-corridor)** | Traffic-aware ambulance routing, a traffic police control room and green-signal priority on real city data | Python · FastAPI · Leaflet |
+| 🚑 | **[Green Corridor](https://github.com/Pratyush1427/green-corridor)** | Sends the fastest ambulance, then clears its signals through the control room and the officer at each signal, on real city data. **[Live](https://green-corridor-tt52.onrender.com)** | Python · FastAPI · Leaflet |
 | 📷 | **[Photo Organizer](https://github.com/Pratyush1427/photo-organizer)** | Offline photo library that **recognises and groups faces with AI**, with culling and date-sorted export | Python · computer vision |
 
 ---
