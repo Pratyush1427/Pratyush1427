@@ -65,7 +65,7 @@ Supabase auth and row-level security; a nightly GitHub Actions job retrains and 
   <img src="https://raw.githubusercontent.com/Pratyush1427/green-corridor/main/docs/screenshots/demo.gif" alt="Green Corridor demo: an accident at rush hour, the control room clears the route, the signal officer taps I will clear the road, and the driver's next signal turns green" width="100%" />
 </a>
 
-When an accident is reported, the **fastest ambulance is sent**. The traffic control room clears its
+**Every minute counts in the golden hour after an accident.** When one is reported, the **fastest ambulance is sent**. The traffic control room clears its
 route and the **police officer at each signal is alerted on their phone**, so signals turn green just
 before the ambulance reaches them: first to the accident, then to the hospital. Four simple screens
 (hospital, driver, signal officer, control room) built for first-time users, with Indian English voice
