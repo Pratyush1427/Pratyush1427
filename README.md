@@ -75,17 +75,17 @@ guidance and Kannada / Hindi text. Runs on Bengaluru's real roads, hospitals and
 
 ---
 
-### 📷 Featured: Photo Organizer
+### 📷 Featured: Keepers
 
-<a href="https://github.com/Pratyush1427/photo-organizer">
-  <img src="https://raw.githubusercontent.com/Pratyush1427/photo-organizer/main/docs/screenshots/walkthrough.gif" alt="Photo Organizer demo: browsing the timeline, rating and picking photos with the keyboard, and people recognised automatically" width="100%" />
+<a href="https://github.com/Pratyush1427/keepers">
+  <img src="https://raw.githubusercontent.com/Pratyush1427/keepers/main/docs/screenshots/walkthrough.gif" alt="Keepers demo: browsing the timeline, rating and picking photos with the keyboard, and people recognised automatically" width="100%" />
 </a>
 
 A photo library that **recognises faces with AI** and groups them into people. Name a person once and
 they're named in every photo. Rate, pick and reject with Lightroom-style shortcuts, then export
 date- and person-sorted folders. It runs **fully offline**, so photos never leave your machine.
 
-`Python` `Computer Vision` `ArcFace` `OpenCV` `Flask` → **[See how it works](https://github.com/Pratyush1427/photo-organizer#how-it-works)**
+`Python` `Computer Vision` `ArcFace` `OpenCV` `Flask` → **[See how it works](https://github.com/Pratyush1427/keepers#how-it-works)**
 
 <sub>Demo uses public-domain NASA photos of the Artemis II crew.</sub>
 
@@ -98,7 +98,7 @@ date- and person-sorted folders. It runs **fully offline**, so photos never leav
 | 🌶️ | **[Hissa](https://github.com/Pratyush1427/Hissa)** | Back Bengaluru's street-food vendors: ratings, **crowdfunded growth goals with treats and revenue share**, and a vendor dashboard · [live demo](https://hissa-1w52.vercel.app) | Next.js · Supabase · TypeScript |
 | 🍲 | **[Stockpot](https://github.com/Pratyush1427/stockpot)** | Learning game: **buckets of Indian and US stocks, funds and gold** with P&L at closing prices, and outlooks from **ten models including walk-forward-tested ML** · [live](https://playstockpot.vercel.app) | Next.js · Supabase · Python · scikit-learn |
 | 🚑 | **[Green Corridor](https://github.com/Pratyush1427/green-corridor)** | Sends the fastest ambulance, then clears its signals through the control room and the officer at each signal, on real city data. **[Live](https://green-corridor-tt52.onrender.com)** | Python · FastAPI · Leaflet |
-| 📷 | **[Photo Organizer](https://github.com/Pratyush1427/photo-organizer)** | Offline photo library that **recognises and groups faces with AI**, with culling and date-sorted export | Python · computer vision |
+| 📷 | **[Keepers](https://github.com/Pratyush1427/keepers)** | Offline photo library that **recognises and groups faces with AI**, with culling and date-sorted export | Python · computer vision |
 
 ---
 
@@ -111,7 +111,7 @@ date- and person-sorted folders. It runs **fully offline**, so photos never leav
 ### 🧠 AI work I take on
 
 **Hands-on**
-- 👁️ **Computer vision pipelines:** face detection (YuNet), embeddings (ArcFace via ONNX Runtime), clustering and nearest-neighbour recognition. *[photo-organizer](https://github.com/Pratyush1427/photo-organizer)*
+- 👁️ **Computer vision pipelines:** face detection (YuNet), embeddings (ArcFace via ONNX Runtime), clustering and nearest-neighbour recognition. *[keepers](https://github.com/Pratyush1427/keepers)*
 - 📈 **Machine learning on market data:** gradient boosting, random forests and logistic regression on 30 engineered features, walk-forward evaluation with an embargo, and leaderboards with t-statistics against simple baselines, retrained nightly on GitHub Actions. *[stockpot](https://github.com/Pratyush1427/stockpot)*
 - 🧭 **Data-driven decision systems:** congestion modelling from time-series traffic data, graph search over a 16k-node road network, human-in-the-loop approval flows. *[green-corridor](https://github.com/Pratyush1427/green-corridor)*
 - 🌶️ **Full-stack product, end to end:** a two-sided app with sign-in, Postgres row-level security, transactional money rules in database functions, live OpenStreetMap data and a responsive UI, deployed on Vercel. *[Hissa](https://github.com/Pratyush1427/Hissa)*
